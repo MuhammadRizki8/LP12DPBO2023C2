@@ -15,3 +15,6 @@ dari kode awal, Controller berfungsi sebagai pengendali input pengguna dan mengh
 - Controller.java: Mengontrol input pengguna dan berinteraksi dengan model dan tampilan.
 - Game.java: Berperan sebagai presenter utama yang mengatur alur permainan dan menghubungkan antara Controller, Model, dan View.
 - Handler.java: Mengelola objek-objek dalam permainan dan menangani logika permainan.
+
+### Perbedaan setelah TMD
+arsitektur programnya berubah menjadi MVVM karena Arsitektur MVVM lebih cocok dalam pengembangan game ini. Dengan pemisahan yang jelas antara Model, View, dan ViewModel, proses coding dapat dilakukan secara terpisah pada bagian-bagian tersebut. Ini memungkinkan untuk pengerjaan yang paralel, meningkatkan efisiensi, dan mempercepat proses pengembangan.
